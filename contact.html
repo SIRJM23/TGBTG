@@ -1,0 +1,226 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
+    <meta name="description" content="Contact To God Be The Glory Full Gospel Church and Ministries" />
+    <meta name="author" content="To God Be The Glory Church" />
+    <title>Contact | To God Be The Glory Full Gospel Church and Ministries</title>
+    <!-- Favicon-->
+    <link rel="icon" type="image/x-icon" href="assets/favicon.ico" />
+    <!-- Bootstrap icons-->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.5.0/font/bootstrap-icons.css" rel="stylesheet" />
+    <!-- Core theme CSS (includes Bootstrap)-->
+    <link href="css/styles.css" rel="stylesheet" />
+    <!-- Animate.css for animations -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"/>
+    <style>
+      /* Animation helpers */
+      .fade-in-up {
+        opacity: 0;
+        transform: translateY(40px);
+        transition: opacity 0.8s cubic-bezier(.77,0,.18,1), transform 0.8s cubic-bezier(.77,0,.18,1);
+      }
+      .fade-in-up.visible {
+        opacity: 1;
+        transform: none;
+      }
+      .zoom-in {
+        opacity: 0;
+        transform: scale(0.95);
+        transition: opacity 0.7s cubic-bezier(.77,0,.18,1), transform 0.7s cubic-bezier(.77,0,.18,1);
+      }
+      .zoom-in.visible {
+        opacity: 1;
+        transform: scale(1);
+      }
+      .slide-in-left {
+        opacity: 0;
+        transform: translateX(-40px);
+        transition: opacity 0.8s, transform 0.8s;
+      }
+      .slide-in-left.visible {
+        opacity: 1;
+        transform: none;
+      }
+      .slide-in-right {
+        opacity: 0;
+        transform: translateX(40px);
+        transition: opacity 0.8s, transform 0.8s;
+      }
+      .slide-in-right.visible {
+        opacity: 1;
+        transform: none;
+      }
+    </style>
+  </head>
+  <body>
+    <!-- Navigation-->
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark animate__animated animate__fadeInDown">
+      <div class="container px-5">
+        <a class="navbar-brand" href="index.html">TGBTG Church</a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+            <li class="nav-item"><a class="nav-link" href="index.html">Home</a></li>
+            <li class="nav-item"><a class="nav-link" href="about.html">About</a></li>
+            <li class="nav-item"><a class="nav-link active" aria-current="page" href="contact.html">Contact</a></li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+
+    <!-- Header-->
+    <header class="bg-dark py-5 fade-in-up">
+      <div class="container px-5">
+        <div class="row justify-content-center">
+          <div class="col-lg-8 col-xxl-6">
+            <div class="text-center my-5">
+              <h1 class="fw-bolder text-white mb-2 animate__animated animate__fadeInUp">Get in Touch With Us</h1>
+              <p class="lead fw-normal text-white-50 mb-4 animate__animated animate__fadeInUp animate__delay-1s">
+                Whether you have a question, prayer request, or simply want to say hello, we're here for you.
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </header>
+
+    <!-- Contact section-->
+    <section class="py-5">
+      <div class="container px-5">
+        <div class="row gx-5">
+          <div class="col-lg-6 fade-in-up">
+            <h2 class="fw-bolder mb-4">Send Us a Message</h2>
+            <form id="contactForm">
+              <!-- Name input-->
+              <div class="form-floating mb-3">
+                <input class="form-control" id="name" type="text" placeholder="Enter your name..." required />
+                <label for="name">Full Name</label>
+              </div>
+              <!-- Email input-->
+              <div class="form-floating mb-3">
+                <input class="form-control" id="email" type="email" placeholder="name@example.com" required />
+                <label for="email">Email address</label>
+              </div>
+              <!-- Phone input-->
+              <div class="form-floating mb-3">
+                <input class="form-control" id="phone" type="tel" placeholder="(63) 900 000 0000" />
+                <label for="phone">Phone number</label>
+              </div>
+              <!-- Message input-->
+              <div class="form-floating mb-3">
+                <textarea class="form-control" id="message" placeholder="Enter your message here..." style="height: 10rem" required></textarea>
+                <label for="message">Message</label>
+              </div>
+              <!-- Submit Button-->
+              <div class="d-grid">
+                <button class="btn btn-primary btn-lg" id="submitButton" type="submit">Send</button>
+              </div>
+            </form>
+          </div>
+
+          <div class="col-lg-6 zoom-in">
+            <h2 class="fw-bolder mb-4">Church Information</h2>
+            <div class="card mb-3 shadow-sm">
+              <div class="card-body d-flex align-items-center">
+                <i class="bi bi-geo-alt fs-1 text-primary me-3"></i>
+                <div>
+                  <h5 class="card-title mb-1">Visit Us</h5>
+                  <p class="card-text small mb-0">Banaba, San Pascual, Batangas, Philippines</p>
+                </div>
+              </div>
+            </div>
+            <div class="card mb-3 shadow-sm">
+              <div class="card-body d-flex align-items-center">
+                <i class="bi bi-telephone fs-1 text-primary me-3"></i>
+                <div>
+                  <h5 class="card-title mb-1">Call Us</h5>
+                  <p class="card-text small mb-0">09215183040</p>
+                </div>
+              </div>
+            </div>
+            <div class="card shadow-sm">
+              <div class="card-body d-flex align-items-center">
+                <i class="bi bi-facebook fs-1 text-primary me-3"></i>
+                <div>
+                  <h5 class="card-title mb-1">Connect Online</h5>
+                  <a href="https://www.facebook.com/tgbtgbanaba" target="_blank" class="small">facebook.com/tgbtgbanaba</a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- Google Map -->
+        <div class="mt-5 fade-in-up">
+          <h2 class="fw-bolder mb-4">Find Us Here</h2>
+          <div class="ratio ratio-16x9">
+            <iframe
+              src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d7722.423656559985!2d121.03923744999998!3d13.803703599999994!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x33bd00993d3ec0cf%3A0x77ee39aead3d8b3f!2sBanaba%2C%20San%20Pascual%2C%20Batangas!5e0!3m2!1sen!2sph!4v1700000000000!5m2!1sen!2sph"
+              width="100%"
+              height="100%"
+              style="border:0;"
+              allowfullscreen=""
+              loading="lazy">
+            </iframe>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Footer-->
+    <footer class="py-4 bg-dark animate__animated animate__fadeInUp">
+      <div class="container px-5">
+        <p class="m-0 text-center text-white">
+          &copy; 2025 To God Be The Glory Full Gospel Church and Ministries
+        </p>
+      </div>
+    </footer>
+
+    <!-- Bootstrap core JS-->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"></script>
+    <script>
+      // Navbar color change on scroll
+      const nav = document.querySelector('.navbar');
+      window.addEventListener('scroll', () => {
+        if (window.scrollY > 50) nav.classList.add('scrolled');
+        else nav.classList.remove('scrolled');
+      });
+
+      // Intersection Observer for fade/slide/zoom animations
+      function animateOnScroll(selector, className = 'visible') {
+        const elements = document.querySelectorAll(selector);
+        const observer = new window.IntersectionObserver(entries => {
+          entries.forEach(entry => {
+            if (entry.isIntersecting) {
+              entry.target.classList.add(className);
+              observer.unobserve(entry.target);
+            }
+          });
+        }, { threshold: 0.2 });
+        elements.forEach(el => observer.observe(el));
+      }
+
+      document.addEventListener('DOMContentLoaded', () => {
+        animateOnScroll('.fade-in-up');
+        animateOnScroll('.zoom-in');
+        animateOnScroll('.slide-in-left');
+        animateOnScroll('.slide-in-right');
+      });
+
+      // Simple email handler via mailto (no backend)
+      document.getElementById("contactForm").addEventListener("submit", function(e) {
+        e.preventDefault();
+        const name = document.getElementById("name").value;
+        const email = document.getElementById("email").value;
+        const phone = document.getElementById("phone").value;
+        const message = document.getElementById("message").value;
+
+        const mailtoLink = `mailto:togodbetheglorybanabaoutreach@gmail.com?subject=Church Contact Form - ${name}&body=Name: ${name}%0D%0AEmail: ${email}%0D%0APhone: ${phone}%0D%0AMessage:%0D%0A${message}`;
+        window.location.href = mailtoLink;
+      });
+    </script>
+  </body>

@@ -1,0 +1,272 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
+  <meta name="description" content="About To God Be The Glory Full Gospel Church and Ministries" />
+  <meta name="author" content="TGBTG Church" />
+  <title>About Us - To God Be The Glory Church</title>
+  <!-- Favicon -->
+  <link rel="icon" type="image/x-icon" href="assets/favicon.ico" />
+  <!-- Bootstrap Icons -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.css" rel="stylesheet" />
+  <!-- Bootstrap Core -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" />
+  <!-- Animate.css for animations -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"/>
+  <style>
+       body {
+      background: #f9fafb;
+      font-family: "Segoe UI", sans-serif;
+      color: #333;
+    }
+    /* Navbar */
+    .navbar {
+      transition: background 0.3s ease;
+      background: transparent !important; /* Default: transparent for desktop */
+    }
+    .navbar.scrolled {
+      background: #0d6efd !important;
+    }
+    /* Responsive navbar color for mobile */
+    @media (max-width: 991.98px) {
+      .navbar {
+        background-color: #0d6efd !important;
+      }
+    }
+    /* Header */
+    header {
+      min-height: 360px;
+      background: url('tgbtgheader.jpg') center/cover no-repeat;
+      position: relative;
+      display: flex;
+      align-items: center;
+    }
+    header::before {
+      content: "";
+      position: absolute;
+      inset: 0;
+      background: rgba(0,0,0,0.65);
+    }
+    header .container {
+      position: relative;
+      z-index: 2;
+    }
+    /* Section styling */
+    .leadership-card {
+      background: #fff;
+      border-radius: 1rem;
+      box-shadow: 0 3px 18px rgba(0,0,0,0.08);
+      padding: 2rem 1rem;
+      transition: transform 0.2s ease;
+    }
+    .leadership-card:hover {
+      transform: translateY(-5px);
+    }
+    .leadership-card img {
+      border: 4px solid #0d6efd;
+    }
+    /* Call to action */
+    aside {
+      background: linear-gradient(135deg, #0d6efd, #2b62d9);
+    }
+    /* Footer */
+    footer {
+      background: #212529;
+    }
+    /* Animation helpers */
+    .fade-in-up {
+      opacity: 0;
+      transform: translateY(40px);
+      transition: opacity 0.8s cubic-bezier(.77,0,.18,1), transform 0.8s cubic-bezier(.77,0,.18,1);
+    }
+    .fade-in-up.visible {
+      opacity: 1;
+      transform: none;
+    }
+    .zoom-in {
+      opacity: 0;
+      transform: scale(0.95);
+      transition: opacity 0.7s cubic-bezier(.77,0,.18,1), transform 0.7s cubic-bezier(.77,0,.18,1);
+    }
+    .zoom-in.visible {
+      opacity: 1;
+      transform: scale(1);
+    }
+    .slide-in-left {
+      opacity: 0;
+      transform: translateX(-40px);
+      transition: opacity 0.8s, transform 0.8s;
+    }
+    .slide-in-left.visible {
+      opacity: 1;
+      transform: none;
+    }
+    .slide-in-right {
+      opacity: 0;
+      transform: translateX(40px);
+      transition: opacity 0.8s, transform 0.8s;
+    }
+    .slide-in-right.visible {
+      opacity: 1;
+      transform: none;
+    }
+  </style>
+</head>
+<body class="d-flex flex-column">
+
+  <!-- Navbar -->
+  <nav class="navbar navbar-expand-lg navbar-dark fixed-top animate__animated animate__fadeInDown">
+    <div class="container px-4">
+      <a class="navbar-brand fw-bold" href="index.html">
+        <i class="bi bi-cross"></i> TGBTG Church
+      </a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarContent">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarContent">
+        <ul class="navbar-nav ms-auto text-center">
+          <li class="nav-item"><a class="nav-link" href="index.html">Home</a></li>
+          <li class="nav-item"><a class="nav-link active" href="about.html">About</a></li>
+          <li class="nav-item"><a class="nav-link" href="contact.html">Contact</a></li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+
+  <!-- Hero Section -->
+  <header>
+    <div class="container text-light text-center fade-in-up">
+      <h1 class="fw-bold display-5 animate__animated animate__fadeInUp">About Our Church</h1>
+      <p class="lead mb-4 animate__animated animate__fadeInUp animate__delay-1s">A Christ-centered community dedicated to worship, discipleship, and service. Since 1979, we exist to glorify God, share His love, and help people grow in faith.</p>
+      <a class="btn btn-primary btn-lg animate__animated animate__fadeIn animate__delay-2s" href="#scroll-target">Learn More</a>
+    </div>
+  </header>
+
+  <!-- Founding Section -->
+  <section class="py-5 bg-light" id="scroll-target">
+    <div class="container my-5">
+      <div class="row gx-5 align-items-center">
+        <div class="col-lg-6 zoom-in"><img class="img-fluid rounded shadow" src="foundingimage.jpg" alt="Church Building" /></div>
+        <div class="col-lg-6 mt-4 mt-lg-0 fade-in-up">
+          <h2 class="fw-bold">Our Founding</h2>
+          <p class="lead text-muted">To God Be The Glory Church began as a small fellowship with a big vision: to reach our community with the Gospel of Jesus Christ. Established in 1979 through faith and prayer, we have grown into a vibrant church family serving Banaba, San Pascual, Batangas, and beyond.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Mission & Vision Section -->
+  <section class="py-5">
+    <div class="container my-5">
+      <div class="row gx-5 align-items-center">
+        <div class="col-lg-6 order-first order-lg-last zoom-in"><img class="img-fluid rounded shadow" src="tgbtglogo.jpg" alt="Ministry" /></div>
+        <div class="col-lg-6 fade-in-up">
+          <h2 class="fw-bold">Our Mission & Vision</h2>
+          <p class="lead text-muted">
+            Our mission is to glorify God by making disciples, loving our neighbors, and serving with compassion. We envision a church where every member is equipped to live out their faith, impact the world, and experience the transforming power of Christ.
+          </p>
+          <ul class="mt-3 text-muted">
+            <li>Christ-centered Worship</li>
+            <li>Biblical Teaching</li>
+            <li>Community Outreach</li>
+            <li>Prayer & Fellowship</li>
+            <li>Family & Youth Development</li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Leadership Section -->
+  <section class="py-5 bg-light">
+    <div class="container my-5">
+      <div class="text-center mb-5 fade-in-up">
+        <h2 class="fw-bold">Our Leadership</h2>
+        <p class="text-muted">Meet the pastors and ministry leaders who shepherd and guide our church family.</p>
+      </div>
+      <div class="row g-4 justify-content-center">
+        <div class="col-md-6 col-lg-3 zoom-in">
+          <div class="leadership-card text-center">
+            <img class="img-fluid rounded-circle mb-4" src="profile.jpg" alt="Pastor" />
+            <h5 class="fw-bold">Pastor Vic Ricalde</h5>
+            <div class="fst-italic text-muted">Senior Pastor</div>
+            <p class="small text-muted mt-2">Leading with faith and vision since the founding of the church.</p>
+          </div>
+        </div>
+        <div class="col-md-6 col-lg-3 zoom-in">
+          <div class="leadership-card text-center">
+            <img class="img-fluid rounded-circle mb-4" src="profile2.jpg" alt="Pastor’s Wife" />
+            <h5 class="fw-bold">Dhel Ricalde</h5>
+            <div class="fst-italic text-muted">Pastor’s Wife</div>
+            <p class="small text-muted mt-2">Passionate about discipleship, women’s ministry, and outreach.</p>
+          </div>
+        </div>
+        <div class="col-md-6 col-lg-3 zoom-in">
+          <div class="leadership-card text-center">
+            <img class="img-fluid rounded-circle mb-4" src="profile3.jpg" alt="Youth Leader" />
+            <h5 class="fw-bold">Bro. Jerwin Benedicto</h5>
+            <div class="fst-italic text-muted">Youth Leader</div>
+            <p class="small text-muted mt-2">Equipping and empowering the next generation to follow Christ.</p>
+          </div>
+        </div>
+        <div class="col-md-6 col-lg-3 zoom-in">
+          <div class="leadership-card text-center">
+            <img class="img-fluid rounded-circle mb-4" src="profile4.jpg" alt="Worship Leader" />
+            <h5 class="fw-bold">Aphol Ricalde</h5>
+            <div class="fst-italic text-muted">Worship Leader</div>
+            <p class="small text-muted mt-2">Leading heartfelt praise and worship each week.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Call to Action -->
+  <aside class="p-5 text-light text-center fade-in-up">
+    <div class="container">
+      <h3 class="fw-bold">Want to Know More?</h3>
+      <p class="text-white-50 mb-4">Connect with us or visit during our worship services. We welcome you to our church family!</p>
+      <a class="btn btn-light btn-lg me-2" href="contact.html">Contact Us</a>
+      <a class="btn btn-outline-light btn-lg" href="https://www.facebook.com/tgbtgbanaba" target="_blank"><i class="bi bi-facebook"></i> Facebook</a>
+    </div>
+  </aside>
+
+  <!-- Footer -->
+  <footer class="py-4 text-center text-white animate__animated animate__fadeInUp">
+    <div class="container">
+      <small>&copy; 2025 To God Be The Glory Full Gospel Church and Ministries</small>
+    </div>
+  </footer>
+
+  <!-- Scripts -->
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+  <script>
+    const nav = document.querySelector('.navbar');
+    window.addEventListener('scroll', () => {
+      if (window.scrollY > 50) nav.classList.add('scrolled');
+      else nav.classList.remove('scrolled');
+    });
+
+    // Intersection Observer for fade/slide/zoom animations
+    function animateOnScroll(selector, className = 'visible') {
+      const elements = document.querySelectorAll(selector);
+      const observer = new window.IntersectionObserver(entries => {
+        entries.forEach(entry => {
+          if (entry.isIntersecting) {
+            entry.target.classList.add(className);
+            observer.unobserve(entry.target);
+          }
+        });
+      }, { threshold: 0.2 });
+      elements.forEach(el => observer.observe(el));
+    }
+
+    document.addEventListener('DOMContentLoaded', () => {
+      animateOnScroll('.fade-in-up');
+      animateOnScroll('.zoom-in');
+      animateOnScroll('.slide-in-left');
+      animateOnScroll('.slide-in-right');
+    });
+  </script>
+</body>
